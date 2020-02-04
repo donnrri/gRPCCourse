@@ -1,6 +1,6 @@
 var grpc = require("grpc")
-var greets = require('../server/protos/greet_pb')
-var services = require('../server/protos/greet_grpc_pb')
+var greets = require('../../server/protos/greet_pb')
+var services = require('../../server/protos/greet_grpc_pb')
 
 function main() {
 

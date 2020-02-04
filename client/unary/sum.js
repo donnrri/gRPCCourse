@@ -1,6 +1,6 @@
 var grpc = require("grpc")
-var calc = require('../server/protos/calculator_pb')
-var calcService = require('../server/protos/calculator_grpc_pb')
+var calc = require('../../server/protos/calculator_pb')
+var calcService = require('../../server/protos/calculator_grpc_pb')
 
 function main() {
     var client = new calcService.CalculatorServiceClient(
