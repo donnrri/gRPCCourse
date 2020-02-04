@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package calculator;
+message SumRequest{
+    int32 first_number = 1;
+    int32 second_nmber = 2;
+}
+
+message SmResponse {
+    int32 sum =1;
+}
